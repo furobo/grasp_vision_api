@@ -1,0 +1,17 @@
+# camera:
+#   type: "orbbec"
+
+camera:
+  type: "realsense"
+
+robot:
+  type: "FAIR"
+  max_speed: 1.0
+  torque: 100
+
+grasper:
+  type: "EPG"
+  port: "/dev/ttyUSB0"
+  max_position: 255
+  min_position: 0
+

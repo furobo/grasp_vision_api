@@ -1,0 +1,42 @@
+# camera_yolo环境所需的依赖包
+# 专门为手眼标定系统配置
+
+# 基础科学计算包
+numpy>=1.21.0
+opencv-python>=4.5.0
+matplotlib>=3.5.0
+
+# GUI框架
+PyQt5>=5.15.0
+PyYAML>=6.0
+
+# 3D处理和可视化
+transforms3d>=0.4.0
+open3d>=0.15.0
+pyvista>=0.35.0
+pyvistaqt>=0.9.0
+
+# 相机和深度图像处理
+pyrealsense2>=2.50.0
+OpenEXR>=1.3.0
+
+# YOLO检测模块（可选）
+ultralytics>=8.0.0
+
+# 深度学习框架（如需要YOLO）
+torch>=1.12.0
+torchvision>=0.13.0
+
+# 其他工具
+tqdm>=4.64.0
+scipy>=1.8.0
+pillow>=9.0.0
+
+# 通信和硬件接口
+thrift>=0.16.0
+pyserial>=3.5
+modbus-tk>=1.1.0
+
+# OpenGL支持
+PyOpenGL>=3.1.0
+PyOpenGL-accelerate>=3.1.0 
